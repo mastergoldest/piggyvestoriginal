@@ -278,7 +278,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px 20px;
+    padding: 40px 30px;
     background-color: white;
 }
 .sec3 h1{
@@ -296,8 +296,8 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     color: whitesmoke;
-    padding: 25px 15px 0 15px;
     margin: 30px 0;
     overflow: hidden;
 }
@@ -305,10 +305,13 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .pho{
     margin-bottom: -180px;
 }
+.sec-ano{
+ display: none;}
 @media(min-width: 40rem){
 header{
     padding: 0 60px;
@@ -416,11 +419,19 @@ main{
     overflow: hidden;
 }
 .sec-4{
-    display: flex;
+    margin-top: -60;
+    display: none;
     flex-direction: column;
     align-items: center;
-    height: 350px;
+    height:500px;
     justify-content: space-around;
+}
+.sec-ano{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ height: 510px;
+ padding: 0 0 50px 0;
 }
 .pho img{
     width: 500px;
