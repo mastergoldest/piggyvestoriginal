@@ -353,6 +353,7 @@ main{
  .vid{
     border-radius: 30px;
     border: 10px solid whitesmoke;
+    margin: 0 0 100PX 0;
 
  }
  .vidsection1{
@@ -366,6 +367,59 @@ main{
     text-align: center;
     align-items: center;
  }
+ .mili{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .mili img{
+    border-radius: 50px;
+    object-fit: cover;
+    margin-bottom: 30px;
+    border: 3px solid whitesmoke;
+ }
+ .last1{
+    display: flex;
+    background-color: whitesmoke;
+    height: 56px;
+    width: 56px;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    margin-top: -28px;
+    margin-left: -15px;
+ }
+ .milli1:hover{
+    z-index: 2;
+ }
+ .milli2{
+    margin-left: -15px;
+ }
+ .milli2:hover{
+    z-index: 3;
+ }
+ .milli3{
+      margin-left: -15px;
+ }
+ .milli3:hover{
+    z-index: 4;
+ }
+ .milli4{
+      margin-left: -15px;
+ }
+ .milli4:hover{
+    z-index: 5;
+ }
+ .millio{
+    text-align: center;
+ }
+ .part0fmili{
+    background-color: rgb(234, 236, 245);
+ }
+ .part0fmili a{
+    color: black;
+ }
+
 @media(min-width: 40rem){
 header{
     padding: 0 60px;
@@ -491,4 +545,14 @@ main{
     width: 500px;
     height: 700px;
 }
+.vidsection h1{
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.vidsection p{
+    font-size: 1.4rem;
+}
+.vid{
+   width: 850px;
+ }
 }
