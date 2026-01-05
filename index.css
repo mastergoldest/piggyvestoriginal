@@ -256,8 +256,43 @@ main{
     text-align: center;
 }
 .Auto:hover{
-    background-color: rgb(221, 61, 221);
+    background-color: rgb(179, 44, 179);
     color: white;
+}
+.Auto2 a{
+    color: #0089ff;
+}
+.Auto2:hover{
+    background-color: #0089ff;
+    color: white;
+}
+.Auto3 a{
+    color: #1734ca;
+}
+.Auto3:hover{
+    background-color: #1734ca;
+    color: white;
+}
+.Auto4 a{
+    color:#EA417d;   
+}
+.Auto4:hover{
+    background-color:#EA417d;
+    color: white;
+}
+.Auto5 a{
+    color:#0c0b1e;
+}
+.Auto5:hover{
+    background-color:#0c0b1e;
+    color: white;
+}
+.Auto6:hover{
+    background-color:#0c0b1e;
+    color: white;
+}
+.Auto6:hover{
+    color:#0c0b1e;
 }
 .Auto:hover a{
     color: white;
@@ -320,7 +355,10 @@ main{
     border: 10px solid whitesmoke;
 
  }
- .vidsection1{ padding: 0 20px;}
+ .vidsection1{
+     padding: 0 20px;
+   
+}
  .vidsection{ 
     display: flex;
     flex-direction: column;
