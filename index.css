@@ -432,11 +432,16 @@ main{
     align-items: center;
  }
 .lastsectio{
-    background-image: linear-gradient(to top, 
-    rgba(234, 236, 245, 0),
-    rgba(245, 241, 241, 0.8),
-    rgba(255, 255, 255, 1)
+    background-image: linear-gradient(  
     );           
+}
+.lastlog{
+   display: flex;
+   flex-direction: column;
+   padding: 0 20px; 
+}
+.lastlog img{
+ object-fit: cover;
 }
 
 @media(min-width: 40rem){
@@ -588,7 +593,7 @@ flex-direction: column;
 .feat{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 30px;
    
  }
@@ -598,6 +603,10 @@ flex-direction: column;
  }
  .featured h1{
     font-size: 1.5rem;
+ }
+ .lastlog img{
+    width: 300px;
+    height: 150px;
  }
 
 
