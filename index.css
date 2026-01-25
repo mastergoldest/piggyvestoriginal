@@ -288,6 +288,7 @@ main{
     color: #ffff;
     text-decoration: none;
     font-size: 1rem;
+    align-items: center;
 }
 .apps{
     display: flex;
@@ -312,7 +313,7 @@ main{
 .arr{
     text-decoration: none;
     color: #0c1825;
-    margin: 0 0 60px 0
+    margin: 0 0 60px 0;
 }
 .htwo{
     margin-bottom: 0;
